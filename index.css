@@ -3,12 +3,12 @@
 * {
     margin: auto;
     /* background-color: #333; */
-    font-family: mons;
+    font-family:'Courier New', Courier, monospace;
 }
 
 nav>p {
     color: white;
-    font-size: larger;
+    font-size: 40px;
     font-weight: bolder;
     padding: 35px;
     margin-left: 20px;
@@ -86,8 +86,22 @@ a:hover {
     color: white;
 
 }
+
 img{
-    border-radius: 5px;
+    border-radius: 50px;
 
 }
+#mid-wrapper{
+    margin: 20px 100px 0px 150px;
+    display: flex;
+}
+#photos{
+    display: flex;
+}
+#photos:last-child{
+    color: white;
+
+}
+   
+
 
