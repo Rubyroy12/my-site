@@ -84,6 +84,8 @@ a:hover {
 }
 #ibrahim>p{
     color: white;
+    float: left;
+    margin-left: 0px;
 
 }
 
@@ -94,6 +96,8 @@ img{
 #mid-wrapper{
     margin: 20px 100px 0px 150px;
     display: flex;
+    flex-direction: row;
+    
 }
 #photos{
     display: flex;
