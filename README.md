@@ -14,4 +14,4 @@
 ## Live site
 - View[live]()
 ## License 
-- This project is under the License of [MIT](LICENSE.md)
+- This project is under the License of [MIT](LICENSE.md).s
