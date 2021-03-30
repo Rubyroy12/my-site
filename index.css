@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
+@media screen and (min-width:480px){
+    body{
+        background-color: black;
+        color:white;
+    }
+}
 * {
     margin: auto;
     /* background-color: #333; */
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Montserrat';
 }
 
 nav>p {
@@ -85,7 +90,7 @@ a:hover {
 #ibrahim>p{
     color: white;
     float: left;
-    margin-left: 0px;
+    margin-left: 10px;
 
 }
 
