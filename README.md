@@ -14,4 +14,5 @@
 ## Live site
 - View [live]()
 ## License 
+- COPYRIGHT (C) 2021 Ibrahim Kiprotich
 - This project is under the License of [MIT](LICENSE.md).
