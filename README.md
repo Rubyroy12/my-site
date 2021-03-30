@@ -12,6 +12,6 @@
 1. HTML
 2. CSS 
 ## Live site
-- View[live]()
+- View [live]()
 ## License 
-- This project is under the License of [MIT](LICENSE.md).s
+- This project is under the License of [MIT](LICENSE.md).
