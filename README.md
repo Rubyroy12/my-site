@@ -14,4 +14,4 @@
 ## Live site
 - View[live](https://rubyroy12.github.io/all-in-one/)
 ## License 
-- this project is under the [MIT](LICENSE.md) license.
+- This project is under the [MIT](LICENSE.md) license.
