@@ -75,7 +75,7 @@ li>a:hover {
 }
 
 .main{
-    background-image: url(/images/just_code.jpg);
+    background-image: url(./images/just_code.jpg);
     /* background-color: rgb(73, 73, 73); */
     background-size: cover;
     background-repeat:repeat;
