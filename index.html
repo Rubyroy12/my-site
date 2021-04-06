@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim's website</title>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -14,13 +15,13 @@
         <nav id="nav">
             <p>IBRAHIM</p>
             <ul>
-                <li><a href="aboutme.html">ABOUT ME</a></li>
-                <li><a href="myskills.html" target="popup" 
-                    onclick="window.open('index.html', 'popup', 'width=600, height=600');return false;">SKILLS</a></li>
-                <li><a href="mywork.html"
-                    target="popup" 
-                    onclick="alert('This is page is under maintanance');return false"
-                    >MY WORK</a></li>
+                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="skills.html" target="popup"
+                        onclick="window.open('skills.html', 'popup', 'width=600, height=600');return false;">SKILLS</a>
+                </li>
+                <li><a href="mywork.html" target="popup"
+                        onclick="alert('This is page is under maintanance');return false">MY WORK</a></li>
+                <li><a href="work.html" onclick="document.getElementById('id01').style.display='block'">WORK</a></li>
             </ul>
         </nav>
 
@@ -32,14 +33,30 @@
                 <p>Hello,<br>I am Ibrahim. <br>Web Developer. <br></p>
                 <br>
                 <br>
-                <button id="contact">Lets connect...</button>
+                <p id="connect"><a href="#">Lets Connect &#8594</a></p>
+
+                <div class="interior">
+                    <a id="modal-box" href="#open-modal" onclick="modal.style.display("block");">modal box</a>
+
+                    <div class="modalbox" id="modalbox">
+                        <div id="modal-content">
+                            <span class="closebox">&times;</span>
+                            <h2>Contact details</h2>
+                            <p>Phone Number : +254717899250</p>
+                            <p>Email: ibrakipz7@gmail.com</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
 
             </div>
             <div id="ceo">
                 <img src="/images/ceo.jpg" alt="IBRAHIM" height="300px" width="200px">
             </div>
         </div>
-    
+
         <div id="photos">
             <div>
                 <img src="/images/setup.jpg" alt="coding setup" height="100px" width="100px">
@@ -49,7 +66,7 @@
                 <img src="/images/wellsetenv.jpg" alt="coding setup" height="100px" width="100px">
                 <p>Coding Environment</p>
             </div>
-           
+
         </div>
 
     </div>
